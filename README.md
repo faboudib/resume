@@ -47,6 +47,14 @@ There are 6 color schemes available:
 |---------|---------|---------|
 | <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
 
+## Running
+
+gem install bundler jekyll
+jekyll new my-awesome-site
+cd my-awesome-site
+bundle exec jekyll serve
+Now browse to http://localhost:4000
+
 ## Credits
 
 Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).

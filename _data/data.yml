@@ -3,190 +3,164 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Fadi Abou Dib
+    tagline: Software Engineer and Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: faboudib@gmail.com
+    alternate-email: fadi@aboudib.net
+    website: fadi.aboudib.net #do not add http://
+    linkedin: faboudib
+    github: faboudib
+    twitter: '@faboudib'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Arabic
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Music
         link:
 
-      - item: Snowboarding
+      - item: Hiking
         link:
 
       - item: Cooking
         link:
 
 career-profile:
-    title: Career Profile
+    title: About
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        Passionate about technology and committed to excellence. Possessing over ten years of experience developing software and managing software development teams.
+
+        Established and maintained strong bonds with clients through excellent communication skills, attention to detail, innovation, and strong work ethics.
+
+        Can effectively organize, motivate, and collaborate with development teams to remove impediments to roll out high quality software solutions and applications.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+
+    - degree: BSc in Computer and Communication Engineering
+      university: American University of Science and Technology
+      time: 2002 - 2006
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Graduated with distinction (cumulative GPA of 3.9)
+
+    - degree: Official Lebanese Baccalaureatte, General Sciences
+      university: Secondary Evangelical School
+      time: 2001 - 2002
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+
+    - role: Head of Development
+      time: 07/2011 - Present
+      company: Grappa Systems - Lebanon, Zalka
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Designing, developing, documenting, testing, installing and supporting full stack software systems.
+        - Collecting requirements and identifying functional specifications.
+        - Researching technologies and identifying optimal architecture to increase maintainability and scalability.
+        - Planning and coordinating between information systems professionals (business analyst, client, designer, software engineers, quality assurance specialist) to ensure smooth and timely delivery of software systems.
+        - Procuring, managing, and maintaining information technology hardware and software.
+        - Stack: ASP.NET (Mediaroom, WebAPI, MVC, WebForms, WCF), .NET (WinForms, Windows Service), MySQL, Smart TV (Samsung Tizen, LG WebOS), JS Frameworks (NodeJS, ReactJS, VueJS, AngularJS), Mobile (Flutter, Java, iOS), DevOps (Jenkins, Jira, TFS, Azure, AWS)
+
+    - role: Senior Software Developer
+      time: 11/2010 - 07/2011
+      company: White Mountain Technologies - Lebanon, Beirut
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Developing student information management solutions targeting colleges and universities
+        - Stack: ASP.NET MVC, SQL Server
+
+    - role: Software Developer
+      time: 07/2008 - 10/2010
+      company: Stargate Cyberactive - Lebanon, Beirut
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - Developing travel industry solutions targeting corporate and agency users
+        - Stack: ASP.NET (MVC, WCF, WebForms), SQL Server
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: Software Developer
+      time: 01/2007 - 07/2008
+      company: INKRIPT formerly IPT (Itani Printing & Trading) - Lebanon, Bshamoun
+      details: |
+        - Developing in-house solutions for SIM card management and packaging
+        - Stack: .NET WinForms, SQL Server
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: Intern
+      time: 06/2006 - 08/2006
+      company: ACT (Automation & Computing Technologies) - Lebanon, Beirut, Hamra
+      details: |
+        - Maintaining existing health care solution 
+        - Stack: ASP.NET WebForms, SQL Server
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
+trainings:
+    title: Trainings and Certifications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    courses:
+      - title: "Core Data Access Development (MSC-2541)"
+        teachers: Daniel Hajarian
+        institute: Formatech, Completed on  17/04/2007
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Advanced Data Access Development (MSC-2542)"
+        teachers: Daniel Hajarian
+        institute: Formatech, Completed on 08/05/2007
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Core Web Application Development (MSC-2543)"
+        teachers: Bilal Haidar
+        institute: Formatech, Completed on 18/05/2007
+
+      - title: "Advanced Web Application Development (MSC-2544)"
+        teachers: Bilal Haidar
+        institute: Formatech, Completed on 18/06/2007
+
+      - title: "CCNA Exploration: Network Fundamentals"
+        teachers: Kareem Rizkallah
+        institute: " Arab Open University, Completed on 2011-02-18"
+
+      - title: "CCNA Exploration: Routing Protocols and Concepts"
+        teachers: Kareem Rizkallah
+        institute: " Arab Open University, Completed on 2011-08-12"
+
+      - title: "CCNA Exploration: LAN Switching and Wireless"
+        teachers: Kareem Rizkallah
+        institute: " Arab Open University, Completed on 2011-10-15"
+
+      - title: "CCNA Exploration: Accessing the WAN"
+        teachers: Kareem Rizkallah
+        institute: " Arab Open University, Completed on 2012-02-24"
+
+      - title: "Certified Ethical Hacking (CEH)"
+        teachers: Cesar Abi Saad
+        institute: "Formatech, Completed on 13/09/2010"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+    categories:
+      - name: Core
+        details: Microsoft Office, Paint.NET, Draw.io, UML, Teams, Slack, SharePoint, Linux
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: DevOps
+        details: Jira, TFS, Jenkins, Docker, AWS, Azure, Azure DevOps, Bitbucket, Gitlab 
 
-      - name: Angular
-        level: 98%
+      - name: Development Languages
+        details: C#, JAVA, JavaScript, Dart, Powershell, Groovy, XPath, XSLT, Web (HTML, CSS, SCSS, Javascript)
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Development Frameworks
+        details: ASP.NET (Mediaroom, WebAPI, MVC, WebForms, WCF), Mobile (Flutter, Native Android), JS Frameworks (NodeJS, ReactJS, VueJS, AngularJS, jQuery), Smart TV (Samsung Tizen, LG WebOS)
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Database
+        details: MySQL, SQL Server, MongoDB, SQLite
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Miscellaneous
+        details: Test Driven Design, Behavior Driven Design, Selenium, XRay
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    <a href="http://fadi.aboudib.net" target="_blank" rel="nofollow">Fadi Abou Dib</a>

@@ -12,6 +12,18 @@
 
   <div class="skillset">
 
+    {% for skill in skills.categories %}
+    <div class="item">
+
+      <h3 class="skill-title">{{ skill.name }}</h3>
+
+      <div class="skill-details">
+        {{ skill.details }}
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endfor %}
+
     {% for skill in skills.toolset %}
     <div class="item">
 

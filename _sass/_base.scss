@@ -55,7 +55,7 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 26px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
@@ -80,7 +80,7 @@ p {
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
-        .fas, .fab, .far {
+        .fas, .fab {
             margin-right: 5px;
             font-size: 18px;
             vertical-align: middle;
@@ -233,6 +233,26 @@ p {
             margin-bottom: 15px;
         }
     }
+
+    .training-title {
+        font-size: 16px;
+        font-weight: 400;
+        color: $text-color;
+        margin-bottom: 1px;
+    }
+    .training-teachers {
+        font-style: italic;
+        color: $text-grey;
+        margin-bottom: 1px;
+    }
+    .trainings-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+    }
 }
 
 
@@ -240,6 +260,16 @@ p {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
+        .skill-title {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 5px;
+        color: darken($theme-color, 15%);    
+        }
+        .skill-details {
+
+        }
     }
     .level-title {
         font-size: 14px;
