@@ -18,15 +18,27 @@
 
   {% for training in trainings.courses %}
   <div class="item">
-    {% if training.link %}
-      <li><a href="{{ training.link }}">{{ training.title }}</a></li>
-    {% else %}
-      <li>{{ training.title }}</li>
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="course-title">{{ training.title }}</h3>
+        <div class="time">{{ training.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="institute">{{ training.institute }}</div>
+
+    </div><!--//meta-->
+
+    {% if training.details %}
+    <div class="details">
+      {{ training.details | markdownify }}
+    </div><!--//details-->
     {% endif %}
-    <div class="training-teachers">{{ training.teachers }}</div>
-    <div class="training-institute">{{ training.institute }}</div>
+
   </div><!--//item-->
   {% endfor %}
+
 
 </section><!--//section-->
 {% endif %}

@@ -22,7 +22,7 @@ sidebar:
 
     languages:
       - idiom: Arabic
-        level: Native
+        level: Professional
 
       - idiom: English
         level: Professional
@@ -31,38 +31,41 @@ sidebar:
       - item: Music
         link:
 
-      - item: Hiking
+      - item: Technology
         link:
 
       - item: Cooking
         link:
 
+      - item: Hiking
+        link:
+
 career-profile:
     title: About
     summary: |
-        Passionate about technology and committed to excellence. Possessing over ten years of experience developing software and managing software development teams.
+        Passionate about technology and committed to excellence. Possessing over fifteen years of experience developing software and managing software development teams.
 
         Established and maintained strong bonds with clients through excellent communication skills, attention to detail, innovation, and strong work ethics.
 
-        Can effectively organize, motivate, and collaborate with development teams to remove impediments to roll out high quality software solutions and applications.
+        Can effectively organize, motivate, and collaborate with development teams to remove impediments and roll out high quality software solutions and applications.
 
 education:
 
     - degree: BSc in Computer and Communication Engineering
       university: American University of Science and Technology
-      time: 2002 - 2006
+      time: From 2002 to 2006
       details: |
         Graduated with distinction (cumulative GPA of 3.9)
 
     - degree: Official Lebanese Baccalaureatte, General Sciences
       university: Secondary Evangelical School
-      time: 2001 - 2002
+      time: From 2001 to 2002
       details: |
 
 experiences:
 
     - role: Head of Development
-      time: 07/2011 - Present
+      time: From 2011-07 to Present
       company: Grappa Systems - Lebanon, Zalka
       details: |
         - Designing, developing, documenting, testing, installing and supporting full stack software systems.
@@ -73,29 +76,29 @@ experiences:
         - Stack: ASP.NET (Mediaroom, WebAPI, MVC, WebForms, WCF), .NET (WinForms, Windows Service), MySQL, Smart TV (Samsung Tizen, LG WebOS), JS Frameworks (NodeJS, ReactJS, VueJS, AngularJS), Mobile (Flutter, Java, iOS), DevOps (Jenkins, Jira, TFS, Azure, AWS)
 
     - role: Senior Software Developer
-      time: 11/2010 - 07/2011
+      time: From 2010-11 to 2011-07
       company: White Mountain Technologies - Lebanon, Beirut
       details: |
         - Developing student information management solutions targeting colleges and universities
         - Stack: ASP.NET MVC, SQL Server
 
     - role: Software Developer
-      time: 07/2008 - 10/2010
+      time: From 2008-07 to 2010-10
       company: Stargate Cyberactive - Lebanon, Beirut
       details: |
         - Developing travel industry solutions targeting corporate and agency users
         - Stack: ASP.NET (MVC, WCF, WebForms), SQL Server
 
     - role: Software Developer
-      time: 01/2007 - 07/2008
+      time: From 2007-01 to 2008-07
       company: INKRIPT formerly IPT (Itani Printing & Trading) - Lebanon, Bshamoun
       details: |
         - Developing in-house solutions for SIM card management and packaging
         - Stack: .NET WinForms, SQL Server
 
-    - role: Intern
-      time: 06/2006 - 08/2006
-      company: ACT (Automation & Computing Technologies) - Lebanon, Beirut, Hamra
+    - role: Software Developer (Internship)
+      time: From 2006-06 to 2006-08
+      company: ACT (Automation & Computing Technologies) - Lebanon, Beirut
       details: |
         - Maintaining existing health care solution 
         - Stack: ASP.NET WebForms, SQL Server
@@ -106,52 +109,61 @@ trainings:
     courses:
       - title: "Core Data Access Development (MSC-2541)"
         teachers: Daniel Hajarian
-        institute: Formatech, Completed on  17/04/2007
+        institute: "Formatech - Lebanon, Beirut"
+        time: Completed on 2007-04-17
 
       - title: "Advanced Data Access Development (MSC-2542)"
         teachers: Daniel Hajarian
-        institute: Formatech, Completed on 08/05/2007
+        institute: "Formatech - Lebanon, Beirut"
+        time: Completed on 2007-05-08
 
       - title: "Core Web Application Development (MSC-2543)"
         teachers: Bilal Haidar
-        institute: Formatech, Completed on 18/05/2007
+        institute: "Formatech - Lebanon, Beirut"
+        time: Completed on 2007-05-18
 
       - title: "Advanced Web Application Development (MSC-2544)"
         teachers: Bilal Haidar
-        institute: Formatech, Completed on 18/06/2007
+        institute: "Formatech - Lebanon, Beirut"
+        time: Completed on 2007-06-18
 
       - title: "CCNA Exploration: Network Fundamentals"
         teachers: Kareem Rizkallah
-        institute: " Arab Open University, Completed on 2011-02-18"
+        institute: " Arab Open University - Lebanon, Beirut"
+        time: Completed on 2011-02-18
 
       - title: "CCNA Exploration: Routing Protocols and Concepts"
         teachers: Kareem Rizkallah
-        institute: " Arab Open University, Completed on 2011-08-12"
+        institute: " Arab Open University - Lebanon, Beirut"
+        time: Completed on 2011-08-12
 
       - title: "CCNA Exploration: LAN Switching and Wireless"
         teachers: Kareem Rizkallah
-        institute: " Arab Open University, Completed on 2011-10-15"
+        institute: " Arab Open University - Lebanon, Beirut"
+        time: Completed on 2011-10-15
 
       - title: "CCNA Exploration: Accessing the WAN"
         teachers: Kareem Rizkallah
-        institute: " Arab Open University, Completed on 2012-02-24"
+        institute: " Arab Open University - Lebanon, Beirut"
+        time: Completed on 2012-02-24
 
       - title: "Certified Ethical Hacking (CEH)"
         teachers: Cesar Abi Saad
-        institute: "Formatech, Completed on 13/09/2010"
+        institute: "Formatech - Lebanon, Beirut"
+        time: Completed on 2010-09-13
 
 skills:
     title: Skills
 
     categories:
       - name: Core
-        details: Microsoft Office, Paint.NET, Draw.io, UML, Teams, Slack, SharePoint, Linux
+        details: Microsoft Office, Paint.NET, Draw.io, Teams, Slack, SharePoint, Linux
 
       - name: DevOps
         details: Jira, TFS, Jenkins, Docker, AWS, Azure, Azure DevOps, Bitbucket, Gitlab 
 
       - name: Development Languages
-        details: C#, JAVA, JavaScript, Dart, Powershell, Groovy, XPath, XSLT, Web (HTML, CSS, SCSS, Javascript)
+        details: C#, JAVA, C++, JavaScript, Dart, Powershell, Groovy, XPath, XSLT, Web (HTML, CSS, SCSS, Javascript)
 
       - name: Development Frameworks
         details: ASP.NET (Mediaroom, WebAPI, MVC, WebForms, WCF), Mobile (Flutter, Native Android), JS Frameworks (NodeJS, ReactJS, VueJS, AngularJS, jQuery), Smart TV (Samsung Tizen, LG WebOS)
@@ -160,7 +172,7 @@ skills:
         details: MySQL, SQL Server, MongoDB, SQLite
 
       - name: Miscellaneous
-        details: Test Driven Design, Behavior Driven Design, Selenium, XRay
+        details: Test Driven Design, Behavior Driven Design, JMeter, Selenium, Postman, XRay, UML, OpenAPI
 
 footer: >
     <a href="http://fadi.aboudib.net" target="_blank" rel="nofollow">Fadi Abou Dib</a>
