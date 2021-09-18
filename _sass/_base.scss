@@ -28,6 +28,11 @@ p {
     line-height: 1.5;
 }
 
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .wrapper {
     background:$theme-color;
     max-width: 1000px;
@@ -102,30 +107,8 @@ p {
         margin-top: 0;
         margin-bottom: 15px;
     }
-    .degree {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
-    .education-container {
-        .item {
-            margin-bottom: 15px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-        .meta {
-            color: rgba(256, 256, 256, 0.6);
-            font-weight: 500;
-            margin-bottom: 0px;
-            margin-top: 0;
-        }
-        .time {
-            color: rgba(256, 256, 256, 0.6);
-            font-weight: 500;
-            margin-bottom: 0px;
-        }
-    }
+
+
     .languages-container {
         .lang-desc {
             color: rgba(256, 256, 256, 0.6);
@@ -164,10 +147,10 @@ p {
         color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
     .section {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     .experiences-section, .educations-section {
@@ -185,17 +168,20 @@ p {
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 500;
+        font-weight: 700;
     }
     .time {
         position: absolute;
         right: 0;
         top: 0;
         color: $text-grey;
+        font-size: 12px;
+        font-style: italic;
     }
     .company, .university, .institute {
         margin-bottom: 10px;
         color: $text-grey;
+        font-weight: 600;
     }
 
     .project-title {

@@ -4,7 +4,6 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Fadi Abou Dib
@@ -86,7 +85,7 @@ experiences:
       time: From 2008-07 to 2010-10
       company: Stargate Cyberactive - Lebanon, Beirut
       details: |
-        - Developing travel industry solutions targeting corporate and agency users
+        - Developing travel industry solutions targeting corporates and travel agencies
         - Stack: ASP.NET (MVC, WCF, WebForms), SQL Server
 
     - role: Software Developer

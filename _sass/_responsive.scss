@@ -24,11 +24,24 @@
         margin-bottom: 0;
     }
 
-
 }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+}
 
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .main-wrapper .upper-row {
+        margin-bottom: 0;
+    }
 
 }
 

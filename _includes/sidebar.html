@@ -17,14 +17,19 @@
 
   </div><!--//profile-container-->
 
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% include language.html %}
-  {% include interests.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-lg-12">
+        {% include contact.html %}
+      </div>
+      <div class="col-sm-4 col-lg-12">
+        {% include language.html %}
+      </div>
+      <div class="col-sm-4 col-lg-12">
+        {% include interests.html %}
+      </div>
+    </div>
+  </div>
 
   {% if sidebar.about %}
     {% include about.html %}

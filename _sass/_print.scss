@@ -16,16 +16,25 @@
         color: black !important;
         -webkit-print-color-adjust: exact; 
    }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
+   .sidebar-wrapper {
+      position: static;
+      float: right;
+      width: 40%;
+      -webkit-print-color-adjust: exact; 
+   }
+    
+   .section-title .fa-stack {
+      .fa-stack-2x:before {
+         color: #000 !important;
+      }
+      .fa-stack-1x:before {
+         color: #fff !important;
+      }
+   }
 
-    .remove-container.container-block {
+   .remove-container.container-block {
        display: none;
-    }
+   }
 
     footer {
        display: none;
