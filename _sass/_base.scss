@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
     background: $smoky-white;
-    font-size: 14px;
+    font-size: 12px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -87,7 +87,7 @@ hr {
     .contact-list {
         .fas, .fab {
             margin-right: 5px;
-            font-size: 18px;
+            font-size: 16px;
             vertical-align: middle;
         }
         li {
@@ -163,12 +163,12 @@ hr {
         overflow: hidden;
         margin-bottom: 2px;
     }
-    .job-title, .course-title, .degree {
+    .skill-title, .job-title, .course-title, .degree {
         color: $text-color;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 700;
+        font-weight: 600;
     }
     .time {
         position: absolute;
@@ -176,12 +176,13 @@ hr {
         top: 0;
         color: $text-grey;
         font-size: 12px;
-        font-style: italic;
+        font-style: normal;
     }
     .company, .university, .institute {
         margin-bottom: 10px;
+        font-size: 15px;
         color: $text-grey;
-        font-weight: 600;
+        font-style: italic;
     }
 
     .project-title {
@@ -189,7 +190,7 @@ hr {
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;
-	color: darken($theme-color, 15%);
+	    color: darken($theme-color, 15%);
     }
     .projects-section {
         .intro {
@@ -246,16 +247,6 @@ hr {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
-        .skill-title {
-            font-size: 16px;
-            font-weight: 400;
-            margin-top: 0;
-            margin-bottom: 5px;
-        color: darken($theme-color, 15%);    
-        }
-        .skill-details {
-
-        }
     }
     .level-title {
         font-size: 14px;
