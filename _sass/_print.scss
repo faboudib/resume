@@ -49,9 +49,11 @@
    .section-title .fa-stack {
       .fa-stack-2x:before {
          color: #000 !important;
+         -webkit-print-color-adjust: exact !important;
       }
       .fa-stack-1x:before {
          color: #fff !important;
+         -webkit-print-color-adjust: exact !important;
       }
    }
 
